@@ -1,0 +1,28 @@
+{
+  "name": "placesinindiaapiserver",
+  "version": "1.0.0",
+  "description": "Api server for getting all the places in india",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartkeerthi/famousPlacesInIndiaServer.git"
+  },
+  "author": "KeerthivasanK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smartkeerthi/famousPlacesInIndiaServer/issues"
+  },
+  "homepage": "https://github.com/smartkeerthi/famousPlacesInIndiaServer#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
